@@ -1,0 +1,54 @@
+.class1 {
+	background-color: pink;
+	color: black;
+	font-family: system-ui;
+	font-size: 15px;
+
+} 
+
+.myclass {
+	color: blue;
+	font-family: serif;
+	font-size: 30px;
+}
+
+.class2 {
+	color: black;
+	background-color: pink;
+	font-family: system-ui;
+	font-size: 20px;
+}
+
+.class3 {
+	color: black;
+	background-color: lightgreen;
+	font-family: serif;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.class4 {
+	font-size: 25px;
+	border: 4px dotted;
+}
+
+.class5 {
+	border: 4px dotted;
+	border-color: red;
+	font-size: 40px; 
+	font-family: 'Amatic SC';
+
+}
+
+h1, h2, h3 {
+	color: hotpink;
+	background-color: honeydew;
+}
+
+h2 {
+	background-color: lavender;
+}
+
+h1 {
+	font-family: cursive;
+}
