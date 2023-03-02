@@ -1,0 +1,18 @@
+.buttonclass1, .buttonclass2 {
+	font-size: 28px;
+	font-family: Helvetica, Times New Roman, sans-serif;
+} 
+
+.buttonclass1 {
+	background-color: black;
+	color: white;
+}
+
+.buttonclass2 {
+	background-color: yellow;
+}
+
+input {
+  width: 25%;
+  height: 30px;
+}
