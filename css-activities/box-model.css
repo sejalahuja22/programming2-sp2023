@@ -1,0 +1,20 @@
+#content {
+width: 550px;
+height: 360px;
+background-color: hotpink;
+padding-left: 151.75px;
+padding-right: 151.75px;
+padding-top: 97.5px;
+padding-bottom: 97.5px;
+border: 25px green solid;
+margin-left: 76.75px;
+margin-right: 76.75px;
+margin-top: 37.5px;
+margin-bottom: 37.5px;
+}
+
+.container {
+width: 1077px;
+height: 695px;
+background-color: cornflowerblue;
+}
