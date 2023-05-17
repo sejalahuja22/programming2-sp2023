@@ -1,0 +1,42 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.one {
+  background: lightgreen;
+  height: 400px;
+  flex-grow: 1;
+  flex-shrink: 1;
+/*  flex-basis: ;*/
+/*  min-height: ;*/
+/*  max-height: ;*/
+/*  min-width: ;*/
+/*  max-width: ;*/
+}
+
+.two {
+  background: orchid;
+  height: 400px;
+  flex-grow: 1;
+  flex-shrink: 1;
+/*  flex-basis: ;*/
+/*  min-height: ;*/
+/*  max-height: ;*/
+/*  min-width: ;*/
+/*  max-width: ;*/
+}
+
+.three {
+  background: hotpink;
+  height: 400px;
+  flex-grow: 1;
+  flex-shrink: 1;
+/*  flex-basis: ;*/
+/*  min-height: ;*/
+/*  max-height: ;*/
+/*  min-width: ;*/
+/*  max-width: ;*/
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Blackjack</title>
+	<link rel="stylesheet" href="styles.css">
+	<body style="background-color: #FADAFA;">
+</head>
+<body>
+	<h1 class="titleclass">Welcome to Sejal's Casino</h1>
+	<i><h3 class="subtitleclass">THE BLACKJACK TABLE</h3></i>
+	<div id = "buttons">
+		<button id "instructions-btn" onclick="openInstructions()">Instructions</button>
+		<button onclick="startNewGame()">Start New Game</button>
+		</button>
+	<div id = hit-and-stay>
+		<button onclick="hit()" disabled ="true" id= "hit">Hit</button>
+		</button>
+		<button onclick="stay()" disabled ="true" id = "stay">Stay</button>
+	</div>
+	</div>
+	<div id = "cardids">
+		<p id = "dealer-cards">Dealer's cards:</p>
+		<p id = "user-cards">Your cards:</p>
+		<p id = "dealerSum">Dealer's sum:</p>
+		<p id = "sum">Your sum:</p>
+	</div>
+	<!-- The Modal -->
+	<div id="myModal" class="modal">
+
+ <!-- Modal content -->
+ 	<div class="modal-content">
+   <span id="close" onclick="closeInstructions()">&times;</span>
+   <h3>INSTRUCTIONS:</h3>
+   <p>The computer will deal both you and itself two initial cards. Your goal is to get as close as you can to a sum of 21 without surpassing 21. If you get exactly 21, you win. Click "hit" if you would like another card, or "stay" if you are content with your sum. If you are closer to 21 than the computer, you win.</p>
+ </div>
+
+</div>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
